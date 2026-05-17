@@ -9,8 +9,19 @@ Simulates an overnight server swap and data migration workflow using Jenkins.
 4. **Post-Check** - Verifies new server is fully operational
 5. **Complete** - Closes the ServiceNow change ticket
 
-## Tools Simulated
-- Jenkins (pipeline automation)
-- PowerShell (server scripts)
-- ServiceNow (ticket tracking via TICKET_ID)
-- Windows Server environments
+## What I Built
+- Jenkins pipeline connected to GitHub via SCM
+- PowerShell scripts simulating real server conversion tasks
+- Automated build triggers polling GitHub every 5 minutes
+- Simulated a real failure scenario and recovered the pipeline
+
+## Tools Used
+- Jenkins 2.x
+- Git + GitHub
+- PowerShell
+- Windows Server environment
+
+## Outcome
+Successfully automated a server conversion workflow end to end,
+simulating the kind of overnight migrations performed in
+enterprise IT infrastructure roles.
