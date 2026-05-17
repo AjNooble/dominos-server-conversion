@@ -1,4 +1,4 @@
-Write-Hst "Running pre-conversion checks..."
+Write-Host "Running pre-conversion checks..."
 
 $checks = @(
     "Verifying network connectivity",
