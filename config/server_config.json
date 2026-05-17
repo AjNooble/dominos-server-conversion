@@ -1,0 +1,16 @@
+{
+  "ticket_id": "CHG0001234",
+  "old_server": {
+    "name": "STORE-SERVER-041",
+    "ip": "10.0.1.41",
+    "os": "Windows Server 2019"
+  },
+  "new_server": {
+    "name": "STORE-SERVER-042",
+    "ip": "10.0.1.42",
+    "os": "Windows Server 2022"
+  },
+  "migration_window": "02:00 - 06:00",
+  "technician": "Ajani",
+  "status": "pending"
+}
